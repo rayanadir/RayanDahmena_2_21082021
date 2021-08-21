@@ -382,6 +382,29 @@ form{
     box-shadow: 0px 0px 12px 3px #d2d2d2;
 }
 
+.image_activite_petite{
+    width:19rem;
+    border-radius: 1rem 1rem 0 0;
+    height:100%;
+    max-width: 100%
+}
+
+.image_activite_moyenne{
+    width:19rem;
+    border-radius: 1rem 1rem 0 0;
+    height: 240px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.image_activite_grande{
+    width:19rem;
+    border-radius: 1rem 1rem 0 0;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+}
+/*
 .image_activite_one{
     width:19rem;
     border-radius: 1rem 1rem 0 0;
@@ -426,6 +449,8 @@ form{
     border-radius: 1rem 1rem 0 0;
     height:100%
 }
+
+*/
 
 .double{
     display: flex;
