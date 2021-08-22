@@ -241,7 +241,7 @@ form{
 
 .image{
     height: 7rem;
-    width: 25rem;
+    width: 16rem;
     object-fit: cover;
     max-width: 100%;
     border-radius: 1rem 1rem 0 0;
@@ -626,6 +626,14 @@ footer{
     .rechercher{
         display: none;
     }
+
+    /*.image{
+        height: 10rem;
+        width: 12rem;
+        object-fit: cover;
+        max-width: 100%;
+        border-radius: 1rem 1rem 0 0;
+    }*/
 }
 
 /*Pour les écrans de moins de 600px de largeur*/
@@ -725,11 +733,12 @@ footer{
 
     .icone_rechercher{
         color: white;
+        font-size: xx-large;
     }
 
     .bouton_rechercher{
         background-color: #0065FC;
-        padding: 0 1rem;
+        padding: 0 2rem;
         border-radius: 1rem;
         border:none;
         color:white;
@@ -755,8 +764,9 @@ footer{
     
     .icone{
         background-color: #F2F2F2;
-        padding:1rem 1rem;
+        padding:1.5rem 1.5rem;
         border-radius: 1rem 0 0 1rem;
+        font-size: xx-large;
     }
     
     form{
@@ -781,7 +791,7 @@ footer{
         border-top: 1px solid #F2F2F2;
         border-bottom: 1px solid #F2F2F2;
         padding: 0 1rem;
-        font-size: 1rem;
+        font-size: 2rem;
         font-weight: bold;
         font-family: "Raleway", sans-serif;
     }
@@ -789,34 +799,38 @@ footer{
     
     .filtre_texte{
         font-family: 'Raleway', sans-serif;
+        font-size: xx-large;
     }
     
     .wrap_icone_filtre{
         background-color: #DEEBFF;
         border-radius: 100%;
-        height: 3rem;
-        width: 3rem;
-        min-height: 3.5rem;
-        min-width: 3.5rem;
+        height: 5rem;
+        width: 5rem;
+        min-height: 5rem;
+        min-width: 5rem;
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: xx-large;
     }
     
     .filtre_titre{
         font-family: 'Raleway', sans-serif;
-        padding: 0 1rem;
+        padding: 0 1.5rem;
+        font-size: xx-large;
     }
     
     .filtre{
         display: flex;
         align-items: center;
-        /*margin-left: 2rem;*/
-        border: 2px solid #DEEBFF;
-        border-radius: 2rem;
+        /* margin-left: 2rem; */
+        border: 4px solid #DEEBFF;
+        border-radius: 3rem;
         margin-bottom: 1rem;
         font-weight: bold;
         cursor: pointer;
+        margin-right: 1rem;
     }
     
     .filtres{
@@ -844,19 +858,19 @@ footer{
     
     .result{
         display: flex;
-        align-items: baseline;
     }
     
     .icon_result{
         border: 1px solid #DEEBFF;
         border-radius: 100%;
-        width: 2rem;
-        height: 2rem;
+        width: 4rem;
+        height: 4rem;
         display: flex;
-        min-width: 2rem;
-        min-height: 2rem;
+        min-width: 4rem;
+        min-height: 4rem;
         align-items: center;
         justify-content: center;
+        font-size: x-large;
     }
     
     
