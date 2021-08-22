@@ -241,7 +241,7 @@ form{
 
 .image{
     height: 7rem;
-    width: 16rem;
+    width: 25rem;
     object-fit: cover;
     max-width: 100%;
     border-radius: 1rem 1rem 0 0;
@@ -542,6 +542,12 @@ footer{
         row-gap: 2rem;
     }
 
+    .hebergement_marseille{
+        background-color: white;
+        padding:1rem;
+        border-radius: 1rem;
+    }
+
     .filtre{
         display: flex;
         align-items: center;
@@ -660,11 +666,13 @@ footer{
     .recherche h1{
         margin-bottom: 10px;
         font-family: 'Raleway', sans-serif;
+        font-size: 47px;
     }
     
     .recherche p{
         margin-top: 0px;
         font-family: 'Raleway', sans-serif;
+        font-size: 30px;
     }
     
     a{
@@ -821,10 +829,14 @@ footer{
     
     .image{
         height: 10rem;
-        width: 30rem;
+        width: 40rem;
         object-fit: cover;
         max-width: 100%;
         border-radius: 1rem 1rem 0 0;
+    }
+
+    .hebergement_marseille{
+        margin: auto;
     }
     
     /*.articles_hebergement{
