@@ -642,6 +642,8 @@ footer{
 
     body{
         width: fit-content;
+        margin-left: 0;
+        margin-bottom: 0;
     }
 
     .conteneur{
@@ -707,7 +709,8 @@ footer{
     
     
     .recherche{
-        width: 90%;
+        width: 95%;
+        margin: auto;
     }
     
     .header_recherche{
@@ -798,7 +801,6 @@ footer{
     
     .filtre_texte{
         font-family: 'Raleway', sans-serif;
-        padding: 0 1.5rem;
         font-size: x-large;
     }
     
@@ -900,6 +902,7 @@ footer{
         font-size: 25px;
         font-weight: bold;
         font-family: "Raleway", sans-serif;
+        margin-left: 1rem;
     }
     
     .article_hebergement{
@@ -945,7 +948,7 @@ footer{
     }
     
     .more{
-        margin: 2rem 0 0 0;
+        margin: 2rem 0 0 1rem;
         font-family: "Raleway", sans-serif;
         font-weight: 600;
         font-size: 20px;
@@ -1006,6 +1009,7 @@ footer{
         font-family: "Raleway", sans-serif;
         font-weight: 600;
         font-size: x-large;
+        margin-left: 1rem;
     }
     
     .activites{
