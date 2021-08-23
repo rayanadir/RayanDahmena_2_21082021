@@ -11,6 +11,10 @@ body{
     margin: auto;
 }
 
+body{
+    margin: 0;
+}
+
 .header_header{
     display: flex;
     justify-content: space-between;
@@ -227,8 +231,6 @@ form{
 }
 
 .hebergement_titre{
-    font-size: 1rem;
-    font-weight: bold;
     font-family: "Raleway", sans-serif;
 }
 
@@ -237,6 +239,7 @@ form{
     border-radius:1rem;
     padding:5px;
     width:fit-content;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
 }
 
 .image{
@@ -290,6 +293,7 @@ form{
     background-color: white;
     border-radius:1rem;
     padding:5px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
 }
 
 .populaire_card{
@@ -322,11 +326,11 @@ form{
     margin: 4rem 0 4rem 0;
 }
 
-.activite{
+/*.activite{
     display:flex;
     justify-content: space-between;
     height:600px;
-}
+}*/
 
 .activite_card_unique{
     display: flex;
@@ -350,36 +354,48 @@ form{
     border-radius: 1rem;
     inline-size: fit-content;
     box-shadow: 0px 0px 12px 3px #d2d2d2;
+    width: 90%;
+    margin: 1rem auto 1rem auto;
 }
 
 .article_activite_two{
     border-radius: 1rem;
     inline-size: fit-content;
     box-shadow: 0px 0px 12px 3px #d2d2d2;
+    width: 90%;
+    margin: 1rem auto 1rem auto;
 }
 
 .article_activite_three{
     border-radius: 1rem;
     inline-size: fit-content;
     box-shadow: 0px 0px 12px 3px #d2d2d2;
+    width: 90%;
+    margin: 1rem auto 1rem auto;
 }
 
 .article_activite_four{
     border-radius: 1rem;
     inline-size: fit-content;
     box-shadow: 0px 0px 12px 3px #d2d2d2;
+    width: 90%;
+    margin: 1rem auto 1rem auto;
 }
 
 .article_activite_five{
     border-radius: 1rem;
     inline-size: fit-content;
     box-shadow: 0px 0px 12px 3px #d2d2d2;
+    width: 90%;
+    margin: 1rem auto 1rem auto;
 }
 
 .article_activite_six{
     border-radius: 1rem;
     inline-size: fit-content;
     box-shadow: 0px 0px 12px 3px #d2d2d2;
+    width: 90%;
+    margin: 1rem auto 1rem auto;
 }
 
 .image_activite_petite{
@@ -461,7 +477,6 @@ form{
 
 footer{
     background-color: #F2F2F2;
-    height:300px
 }
 
 .nav_footer{
@@ -524,6 +539,10 @@ footer{
         margin: auto;
     }
 
+    body{
+        margin: 0;
+    }
+
     .bouton_rechercher{
         background-color: #0065FC;
         padding: 0 1rem;
@@ -543,6 +562,97 @@ footer{
     .icone_rechercher{
         display: none;
     }
+
+    .article_hebergement{
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    }
+
+    .activites{
+        margin: 4rem 0 4rem 0;
+    }
+    
+    /*.activite{
+        display:flex;
+        justify-content: space-between;
+        height:600px;
+    }*/
+
+    .activite{
+        display: flex;
+        /* flex-flow: wrap; */
+        justify-content: space-around;
+        row-gap: 2rem;
+    }
+    
+    .activite_card_unique{
+        display: flex;
+        flex-direction: column;
+        height:100%
+    }
+    
+    .activite_card_double{
+        display: flex;
+        flex-direction: column;
+        height:100%
+    }
+    
+    .titre_activite{
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        margin-left: 1rem;
+    }
+    
+    .article_activite_one{
+        border-radius: 1rem;
+        inline-size: fit-content;
+        box-shadow: 0px 0px 12px 3px #d2d2d2;
+        /*width: 90%;*/
+        margin: 1rem auto 1rem auto;
+    }
+    
+    .article_activite_two{
+        border-radius: 1rem;
+        inline-size: fit-content;
+        box-shadow: 0px 0px 12px 3px #d2d2d2;
+        width: 90%;
+        margin: 1rem auto 1rem auto;
+    }
+    
+    .article_activite_three{
+        border-radius: 1rem;
+        inline-size: fit-content;
+        box-shadow: 0px 0px 12px 3px #d2d2d2;
+        /*width: 90%;*/
+        margin: 1rem auto 1rem auto;
+    }
+    
+    .article_activite_four{
+        border-radius: 1rem;
+        inline-size: fit-content;
+        box-shadow: 0px 0px 12px 3px #d2d2d2;
+        width: 90%;
+        margin: 1rem auto 1rem auto;
+    }
+    
+    .article_activite_five{
+        border-radius: 1rem;
+        inline-size: fit-content;
+        box-shadow: 0px 0px 12px 3px #d2d2d2;
+        width: 90%;
+        margin: 1rem auto 1rem auto;
+    }
+    
+    .article_activite_six{
+        border-radius: 1rem;
+        inline-size: fit-content;
+        box-shadow: 0px 0px 12px 3px #d2d2d2;
+        width: 90%;
+        margin: 1rem auto 1rem auto;
+    }
+
+
+
+
 }
 
 /* 600px < width < 1300px */
@@ -553,9 +663,17 @@ footer{
         width:70%;
         margin: auto;
     }
+
+    body{
+        margin: 0;
+    }
     
     .articles_hebergement{
         display:flex;
+    }
+
+    .article_hebergement{
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
     }
 
     .hebergements{
@@ -569,6 +687,13 @@ footer{
         padding:1rem;
         border-radius: 1rem;
     }
+
+    /*.activite{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+        row-gap: 2rem;
+    }*/
 
     .filtre{
         display: flex;
@@ -627,6 +752,75 @@ footer{
         display: none;
     }
 
+    .image_activite_petite{
+        border-radius: 1rem 1rem 0 0;
+        height:14rem;
+        object-fit: cover;
+        width: auto;
+    }
+    
+    .image_activite_moyenne{
+        border-radius: 1rem 1rem 0 0;
+        height: 14rem;
+        object-fit: cover;
+        width: auto;
+    }
+    
+    .image_activite_grande{
+        border-radius: 1rem 1rem 0 0;
+        height: 14rem;
+        object-fit: cover;
+        width: auto;
+    }
+
+    .article_activite_one {
+        border-radius: 1rem;
+        inline-size: fit-content;
+        box-shadow: 0px 0px 12px 3px #d2d2d2;
+        width: auto;
+        margin: 1rem auto 1rem auto;
+    }
+
+    .article_activite_two {
+        border-radius: 1rem;
+        inline-size: fit-content;
+        box-shadow: 0px 0px 12px 3px #d2d2d2;
+        width: -webkit-fill-available;
+        margin: 1rem auto 1rem auto;
+    }
+
+    .article_activite_three {
+        border-radius: 1rem;
+        inline-size: fit-content;
+        box-shadow: 0px 0px 12px 3px #d2d2d2;
+        width: auto;
+        margin: 1rem auto 1rem auto;
+    }
+
+    .article_activite_four {
+        border-radius: 1rem;
+        inline-size: fit-content;
+        box-shadow: 0px 0px 12px 3px #d2d2d2;
+        width: -webkit-fill-available;
+        margin: 1rem auto 1rem auto;
+    }
+
+    .article_activite_five {
+        border-radius: 1rem;
+        inline-size: fit-content;
+        box-shadow: 0px 0px 12px 3px #d2d2d2;
+        width: -webkit-fill-available;
+        margin: 1rem auto 1rem auto;
+    }
+
+    .article_activite_six {
+        border-radius: 1rem;
+        inline-size: fit-content;
+        box-shadow: 0px 0px 12px 3px #d2d2d2;
+        width: -webkit-fill-available;
+        margin: 1rem auto 1rem auto;
+    }
+
     /*.image{
         height: 10rem;
         width: 12rem;
@@ -634,20 +828,45 @@ footer{
         max-width: 100%;
         border-radius: 1rem 1rem 0 0;
     }*/
+
+    /*footer{
+        background-color: #F2F2F2;
+    }
+    
+    .nav_footer{
+        padding: 5%;
+    }
+    
+    .header_footer{
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+    }
+    
+    .list_footer{
+        list-style: none;
+        padding:0;
+        margin:0;
+        line-height: 2;
+    }
+    
+    .list_titre{
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+    }*/
+
 }
 
-/*Pour les écrans de moins de 600px de largeur*/
+/*Pour les écrans de moins de 599px de largeur*/
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
 
     body{
         width: fit-content;
-        margin-left: 0;
-        margin-bottom: 0;
+        margin:0;
     }
 
     .conteneur{
-        width: 600px;
+        width: 599px;
         margin: auto;
     }
     
@@ -1046,7 +1265,7 @@ footer{
         inline-size: fit-content;
         box-shadow: 0px 0px 12px 3px #d2d2d2;
         width: 90%;
-        margin: 1rem auto 2rem auto;
+        margin: 1rem auto 1rem auto;
     }
     
     .article_activite_two{
@@ -1061,7 +1280,7 @@ footer{
         inline-size: fit-content;
         box-shadow: 0px 0px 12px 3px #d2d2d2;
         width: 90%;
-        margin: 1rem auto 2rem auto;
+        margin: 1rem auto 1rem auto;
     }
     
     .article_activite_four{
@@ -1077,7 +1296,7 @@ footer{
         inline-size: fit-content;
         box-shadow: 0px 0px 12px 3px #d2d2d2;
         width: 90%;
-        margin: 1rem auto 2rem auto;
+        margin: 1rem auto 1rem auto;
     }
     
     .article_activite_six{
@@ -1085,7 +1304,7 @@ footer{
         inline-size: fit-content;
         box-shadow: 0px 0px 12px 3px #d2d2d2;
         width: 90%;
-        margin: 1rem auto 2rem auto;
+        margin: 1rem auto 1rem auto;
     }
     
     .image_activite_one{
@@ -1154,11 +1373,9 @@ footer{
     
     footer{
         background-color: #F2F2F2;
-       
     }
     
     .nav_footer{
-        
         padding: 5%;
     }
     
