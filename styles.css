@@ -886,7 +886,7 @@ footer{
         display:flex;
         flex-direction: column-reverse;
         row-gap: 2rem;
-        width: 90%;
+        /*width: 90%;*/
     }
     
     /*.hebergements{
@@ -897,7 +897,7 @@ footer{
     }*/
     
     .hebergement_titre{
-        font-size: xx-large;
+        font-size: 18px;
         font-weight: bold;
         font-family: "Raleway", sans-serif;
     }
@@ -907,10 +907,12 @@ footer{
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 1rem;
         padding: 5px;
+        margin-left: 1rem;
+        margin-right: 1rem
     }
     
     .image{
-        height: 16rem;
+        height: 8rem;
         width: 40rem;
         object-fit: cover;
         max-width: 100%;
@@ -930,8 +932,8 @@ footer{
     
     .titre_article{
         font-family: "Raleway", sans-serif;
-        margin: 5px 0 15px 10px;
-        font-size: xx-large;
+        margin: 5px 0 0 10px;
+        font-size: 17px;
     }
     
     .fas[data-active="true"]{
@@ -946,7 +948,7 @@ footer{
         margin: 2rem 0 0 0;
         font-family: "Raleway", sans-serif;
         font-weight: 600;
-        font-size: xx-large;
+        font-size: 20px;
     }
     
     .nav_header_categorie[data-active="true"]{
@@ -955,8 +957,8 @@ footer{
     }
     
     .image_populaire_details{
-        height: 18rem;
-        width: 18rem;
+        height: 10rem;
+        width: 10rem;
         object-fit: cover;
         max-width: 100%;
         border-radius: 1rem 0 0 1rem;
@@ -989,11 +991,12 @@ footer{
     
     .details_populaire{
         display:grid;
+        padding: 10px;
     }
     
     .rating_populaire{
         margin: auto 0 0 10px;
-        font-size: xx-large;
+        font-size: 18px;
     }
     
     .header_activite{
