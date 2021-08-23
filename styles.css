@@ -897,7 +897,7 @@ footer{
     }*/
     
     .hebergement_titre{
-        font-size: 18px;
+        font-size: 25px;
         font-weight: bold;
         font-family: "Raleway", sans-serif;
     }
@@ -978,6 +978,9 @@ footer{
     .populaire_titre{
         display: flex;
         justify-content: space-between;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "Raleway", sans-serif;
     }
     
     .articles_populaires{
