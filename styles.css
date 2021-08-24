@@ -461,14 +461,14 @@ form{
     height:100%
 }
 */
-
+/*
 .double{
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
     justify-content: space-between;
 }
-
+*/
 footer{
     background-color: #F2F2F2;
 }
@@ -643,7 +643,12 @@ footer{
         margin: 1rem auto 1rem auto;
     }
 
-
+    .double{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        justify-content: space-between;
+    }
 
 
 }
@@ -744,6 +749,12 @@ footer{
     .rechercher{
         display: none;
     }
+    
+
+    .activite article{
+        width:70%;
+    }
+
 
     .image_activite_petite{
         border-radius: 1rem 1rem 0 0;
@@ -813,6 +824,13 @@ footer{
         width: -webkit-fill-available;
         margin: 1rem auto 1rem auto;
     }
+
+    /*.double{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        justify-content: space-between;
+    }*/
 
     /*.image{
         height: 10rem;
