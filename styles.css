@@ -428,7 +428,6 @@ form{
     object-fit: cover;
     max-width: 100%;
 }
-
 .image_activite_two{
     width:19rem;
     border-radius: 1rem 1rem 0 0;
@@ -436,7 +435,6 @@ form{
     object-fit: cover;
     max-width: 100%;
 }
-
 .image_activite_three{
     width:19rem;
     border-radius: 1rem 1rem 0 0;
@@ -444,28 +442,24 @@ form{
     object-fit: cover;
     max-width: 100%;
 }
-
 .image_activite_four{
     width:19rem;
     border-radius: 1rem 1rem 0 0;
     height:100%;
     max-width: 100%;
 }
-
 .image_activite_five{
     width:19rem;
     border-radius: 1rem 1rem 0 0;
     height:100%;
     max-width: 100%;
 }
-
 .image_activite_six{
     width:19rem;
     max-width: 100%;
     border-radius: 1rem 1rem 0 0;
     height:100%
 }
-
 */
 
 .double{
@@ -521,7 +515,6 @@ footer{
         flex-wrap:wrap;
         flex-direction: column;
     }
-
     .filtres_liste{
         display: inline-flex;
         flex-direction: row;
@@ -657,7 +650,7 @@ footer{
 
 /* 600px < width < 1300px */
 
-@media (min-width:600px) and (max-width:1300px){
+@media (min-width:600px) and (max-width:1299px){
     
     main{
         width:70%;
@@ -943,9 +936,9 @@ footer{
     }
     
     .recherche p{
-        margin-top: 0px;
+        margin-top: 11px;
         font-family: 'Raleway', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .bouton_rechercher_icone{
