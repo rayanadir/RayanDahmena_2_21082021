@@ -882,19 +882,19 @@ footer{
     }
     
     .header_header{
-        display: grid;
-        grid-template-areas: "icon_img  nav_header_inscription"
-                             "navbar navbar";
-        grid-auto-flow: column;
+        display: flex;
+        flex-wrap: wrap;
     }
     
     .nav_header{
         display: flex;
         align-items: center;
+        order:1;
     }
 
     .icon_img{
         align-self: center;
+        flex-grow: 1;
     }
     
     .boutons{
