@@ -2,6 +2,12 @@ body{
     font-family: "Raleway", sans-serif;
 }
 
+@media (min-width:800px){
+    .icon_img{
+        flex-grow: 1;
+    }
+}
+
 /*Pour les écrans de plus de 600px de largeur*/
 
 @media (min-width: 600px) {
@@ -536,6 +542,7 @@ footer{
         margin: 0;
     }
 
+
     .bouton_rechercher{
         background-color: #0065FC;
         padding: 0 1rem;
@@ -665,6 +672,7 @@ footer{
     body{
         margin: 0;
     }
+
     
     .articles_hebergement{
         display:flex;
@@ -894,7 +902,7 @@ footer{
 
     .icon_img{
         align-self: center;
-        flex-grow: 1;
+        flex-grow: 1;  
     }
     
     .boutons{
@@ -965,12 +973,12 @@ footer{
 
     .icone_rechercher{
         color: white;
-        font-size: x-large;
+        font-size: 17px;
     }
 
     .bouton_rechercher{
         background-color: #0065FC;
-        padding: 0 1.3rem;
+        padding: 0 1rem;
         border-radius: 1rem;
         border:none;
         color:white;
