@@ -605,10 +605,13 @@ footer{
     }*/
 
     .activite{
-        display: flex;
-        /* flex-flow: wrap; */
+        /*display: flex;
+         flex-flow: wrap; 
         justify-content: space-around;
-        row-gap: 2rem;
+        row-gap: 2rem;*/
+        display: grid;
+        column-gap: 5rem;
+        grid-template-columns: repeat(4,1fr);
     }
     
     .activite_card_unique{
@@ -629,13 +632,7 @@ footer{
         margin-left: 1rem;
     }
     
-    .article_activite_one{
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        /*width: 90%;*/
-        margin: 1rem auto 1rem auto;
-    }
+    
 
     .article_activite_one:hover{
         -webkit-transform: scale(1.05);
@@ -673,11 +670,18 @@ footer{
         transform: scale(1.05);
     }
     
+    .article_activite_one{
+        border-radius: 1rem;
+        inline-size: fit-content;
+        box-shadow: 0px 0px 12px 3px #d2d2d2;
+        width: 100%;
+        margin: 1rem auto 1rem auto;
+    }
     .article_activite_two{
         border-radius: 1rem;
         inline-size: fit-content;
         box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 90%;
+        width: 100%;
         margin: 1rem auto 1rem auto;
     }
     
@@ -685,7 +689,7 @@ footer{
         border-radius: 1rem;
         inline-size: fit-content;
         box-shadow: 0px 0px 12px 3px #d2d2d2;
-        /*width: 90%;*/
+        width: 100%;
         margin: 1rem auto 1rem auto;
     }
     
@@ -693,7 +697,7 @@ footer{
         border-radius: 1rem;
         inline-size: fit-content;
         box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 90%;
+        width: 100%;
         margin: 1rem auto 1rem auto;
     }
     
@@ -701,7 +705,7 @@ footer{
         border-radius: 1rem;
         inline-size: fit-content;
         box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 90%;
+        width: 100%;
         margin: 1rem auto 1rem auto;
     }
     
@@ -709,7 +713,7 @@ footer{
         border-radius: 1rem;
         inline-size: fit-content;
         box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 90%;
+        width: 100%;
         margin: 1rem auto 1rem auto;
     }
 
