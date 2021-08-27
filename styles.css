@@ -4,6 +4,7 @@ body{
 .wrapper{
     max-width:1440px;
     margin: auto;
+    padding: 0 1rem 0 1rem;
 }
 
 
@@ -12,6 +13,8 @@ body{
         flex-grow: 1;
     }
 }
+
+
 
 /*Pour les écrans de plus de 600px de largeur*/
 
@@ -728,6 +731,15 @@ footer{
 
 }
 
+@media(min-width:1128px) and (max-width:1390px){
+    .article_hebergement{
+        width:26%;
+    }
+    .image{
+        width: 21rem;
+    }
+}
+
 /* 600px < width < 1299px */
 
 @media (min-width:600px) and (max-width:1299px){
@@ -744,10 +756,15 @@ footer{
     
     .articles_hebergement{
         display:flex;
+        justify-content: space-evenly;
     }
 
     .article_hebergement{
         box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    }
+
+    .header_header{
+        padding: 0 1rem 0 1rem;
     }
 
     .hebergements{
@@ -829,11 +846,17 @@ footer{
         display: none;
     }
     
+    .recherche{
+        padding: 1rem;
+    }
 
     .activite article{
         width:70%;
     }
 
+    .populaires{
+        border-radius: 0;
+    }
     
     .activites{
         padding: 1rem;
