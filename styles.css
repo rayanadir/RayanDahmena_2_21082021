@@ -40,6 +40,7 @@ body{
 
 .icon_img{
     align-self: center;
+    flex-grow: 1;
 }
 
 /*main{
@@ -669,7 +670,7 @@ footer{
         -ms-transform: scale(1.05);
         transform: scale(1.05);
     }
-    
+
     .article_activite_one{
         border-radius: 1rem;
         inline-size: fit-content;
@@ -968,12 +969,16 @@ footer{
     .nav_header{
         display: flex;
         align-items: center;
-        order:1;
+        order: 1;
+        width: -webkit-fill-available;
+        height: 53px;
+        justify-content: space-evenly
     }
 
     .icon_img{
         align-self: center;
-        flex-grow: 1;  
+        flex-grow: 1;
+        margin-left: 1rem;  
     }
     
     .boutons{
@@ -1019,7 +1024,7 @@ footer{
     
     .recherche{
         width: 95%;
-        margin: auto;
+        margin: 3rem auto auto auto;
     }
     
     .header_recherche{
