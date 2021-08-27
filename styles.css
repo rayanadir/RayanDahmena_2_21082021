@@ -762,12 +762,13 @@ footer{
         border-radius: 1rem;
     }
 
-    /*.activite{
-        display: flex;
-        flex-flow: wrap;
+    .activite{
+        display: grid;
+        /*flex-flow: wrap;
         justify-content: space-around;
-        row-gap: 2rem;
-    }*/
+        row-gap: 2rem;*/
+        grid-template-columns: repeat(2,1fr);
+    }
 
     .filtre{
         display: flex;
@@ -833,6 +834,10 @@ footer{
         width:70%;
     }
 
+    
+    .activites{
+        padding: 1rem;
+    }
 
     .image_activite_petite{
         border-radius: 1rem 1rem 0 0;
@@ -850,7 +855,7 @@ footer{
     
     .image_activite_grande{
         border-radius: 1rem 1rem 0 0;
-        height: 14rem;
+        /*height: 14rem;*/
         object-fit: cover;
         width: auto;
     }
@@ -902,6 +907,7 @@ footer{
         width: -webkit-fill-available;
         margin: 1rem auto 1rem auto;
     }
+
 
     /*.double{
         display: flex;
