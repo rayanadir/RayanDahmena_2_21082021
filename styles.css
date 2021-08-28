@@ -977,7 +977,7 @@ footer{
         order: 1;
         width: 100%;
         height: 53px;
-        justify-content: space-evenly
+        justify-content: space-between;
     }
 
     .icon_img{
@@ -1007,7 +1007,7 @@ footer{
     }
     
     .nav_header_categorie{
-        padding:2rem;
+        padding: 2rem 3.3rem 2rem 3.3rem;
         text-decoration: none;
         font-family: 'Raleway', sans-serif;
         
