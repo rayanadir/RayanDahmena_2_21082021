@@ -8,9 +8,7 @@ body{
 }
 
 .survol:hover{
-    -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-        transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 
@@ -651,31 +649,6 @@ footer{
         margin-left: 1rem;
     }
     
-    
-
-    /*.article_activite_one:hover{
-        transform: scale(1.05);
-    }
-
-    .article_activite_two:hover{
-        transform: scale(1.05);
-    }
-
-    .article_activite_three:hover{
-        transform: scale(1.05);
-    }
-
-    .article_activite_four:hover{
-        transform: scale(1.05);
-    }
-
-    .article_activite_five:hover{
-        transform: scale(1.05);
-    }
-
-    .article_activite_six:hover{
-        transform: scale(1.05);
-    }*/
 
     .article_activite_one{
         border-radius: 1rem;
