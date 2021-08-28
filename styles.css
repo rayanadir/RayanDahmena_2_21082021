@@ -500,7 +500,7 @@ footer{
     justify-content: space-around;
 }
 
-.header_footer{
+.titre_footer{
     font-family: "Raleway", sans-serif;
     font-weight: 600;
 }
@@ -1506,7 +1506,7 @@ footer{
         padding: 5%;
     }
     
-    .header_footer{
+    .titre_footer{
         font-family: "Raleway", sans-serif;
         font-weight: 600;
     }
