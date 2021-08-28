@@ -311,7 +311,7 @@ form{
     height: 8rem;
     width: 11rem;
     object-fit: cover;
-    max-width: 100%;
+    max-width: 8rem;
     border-radius: 1rem 0 0 1rem;
 }
 
@@ -1284,6 +1284,7 @@ footer{
         object-fit: cover;
         max-width: 100%;
         border-radius: 1rem 0 0 1rem;
+        min-width: 10rem;
     }
     
     .article_populaire{
