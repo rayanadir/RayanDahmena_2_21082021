@@ -104,7 +104,7 @@ body{
 }
 
 .recherche p{
-    margin-top: 0px;
+    /*margin-top: 0px;*/
     font-family: 'Raleway', sans-serif;
 }
 
@@ -577,6 +577,14 @@ footer{
 
     .icone_rechercher{
         display: none;
+    }
+
+    .bouton_rechercher i{
+        display: none;
+    }
+
+    .recherche p{
+        font-family: 'Raleway', sans-serif;
     }
 
     .filtre:hover{
