@@ -16,6 +16,10 @@ footer {
     padding: 2rem !important;
 }
 
+article {
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
 @media (min-width:800px) {
     .icon_img {
         flex-grow: 1;
@@ -189,7 +193,6 @@ footer {
         border-radius: 1rem;
         padding: 5px;
         width: fit-content;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     }
     .image {
         height: 7rem;
@@ -232,7 +235,6 @@ footer {
         background-color: white;
         border-radius: 1rem;
         padding: 5px;
-        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
     }
     .populaire_card {
         display: flex;
@@ -270,45 +272,9 @@ footer {
         font-weight: 600;
         margin-left: 1rem;
     }
-    .article_activite_one {
+    .article_activite {
         border-radius: 1rem;
         inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 90%;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_two {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 90%;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_three {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 90%;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_four {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 90%;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_five {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 90%;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_six {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
         width: 90%;
         margin: 1rem auto 1rem auto;
     }
@@ -384,9 +350,6 @@ footer {
     .survol:hover {
         transform: scale(1.05);
     }
-    .article_hebergement {
-        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
-    }
     .activites {
         margin: 4rem 0 4rem 0;
     }
@@ -409,45 +372,9 @@ footer {
         font-weight: 600;
         margin-left: 1rem;
     }
-    .article_activite_one {
+    .article_activite {
         border-radius: 1rem;
         inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 100%;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_two {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 100%;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_three {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 100%;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_four {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 100%;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_five {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 100%;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_six {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
         width: 100%;
         margin: 1rem auto 1rem auto;
     }
@@ -477,9 +404,6 @@ footer {
     .articles_hebergement {
         display: flex;
         justify-content: space-evenly;
-    }
-    .article_hebergement {
-        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
     }
     .header_header {
         padding: 0 1rem 0 1rem;
@@ -551,7 +475,7 @@ footer {
         padding: 1rem;
     }
     .activite article {
-        width: 70%;
+        width: 90%;
     }
     .populaires {
         border-radius: 0;
@@ -576,40 +500,9 @@ footer {
         object-fit: cover;
         width: auto;
     }
-    .article_activite_one {
+    .article_activite {
         border-radius: 1rem;
         inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_two {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_three {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_four {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_five {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_six {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
         margin: 1rem auto 1rem auto;
     }
 }
@@ -703,8 +596,8 @@ footer {
         color: white;
         font-size: 1rem;
         cursor: pointer;
-        width: 66.38px;
-        height: 66.38px;
+        width: 50px;
+        height: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -733,6 +626,7 @@ footer {
     form {
         display: inline-flex;
         width: 100%;
+        height: 50px;
     }
     .input {
         border-right: none;
@@ -742,6 +636,7 @@ footer {
         font-size: 1rem;
         font-weight: bold;
         flex: 1;
+        padding-left: 5px;
     }
     .filtre_texte {
         font-size: x-large;
@@ -820,7 +715,6 @@ footer {
     }
     .article_hebergement {
         margin-bottom: 2rem;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 1rem;
         padding: 5px;
         margin-left: 1rem;
@@ -867,7 +761,6 @@ footer {
         background-color: white;
         border-radius: 1rem;
         padding: 5px;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     .populaire_card {
         display: flex;
@@ -919,79 +812,15 @@ footer {
         font-weight: 600;
         margin-left: 1rem;
     }
-    .article_activite_one {
+    .double {
+        display: flex;
+        flex-direction: column;
+    }
+    .article_activite {
         border-radius: 1rem;
         inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
         width: 90%;
         margin: 1rem auto 1rem auto;
-    }
-    .article_activite_two {
-        border-radius: 1rem;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 90%;
-        margin: 1rem auto 2rem auto;
-    }
-    .article_activite_three {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 90%;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_four {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 90%;
-        margin: 1rem auto 2rem auto;
-    }
-    .article_activite_five {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 90%;
-        margin: 1rem auto 1rem auto;
-    }
-    .article_activite_six {
-        border-radius: 1rem;
-        inline-size: fit-content;
-        box-shadow: 0px 0px 12px 3px #d2d2d2;
-        width: 90%;
-        margin: 1rem auto 1rem auto;
-    }
-    .image_activite_one {
-        border-radius: 1rem 1rem 0 0;
-        height: 100%;
-        object-fit: cover;
-        max-width: 100%;
-    }
-    .image_activite_two {
-        border-radius: 1rem 1rem 0 0;
-        height: 240px;
-        object-fit: cover;
-        max-width: 100%;
-    }
-    .image_activite_three {
-        border-radius: 1rem 1rem 0 0;
-        height: 100%;
-        object-fit: cover;
-        max-width: 100%;
-    }
-    .image_activite_four {
-        border-radius: 1rem 1rem 0 0;
-        height: 100%;
-        max-width: 100%;
-    }
-    .image_activite_five {
-        border-radius: 1rem 1rem 0 0;
-        height: 100%;
-        max-width: 100%;
-    }
-    .image_activite_six {
-        max-width: 100%;
-        border-radius: 1rem 1rem 0 0;
-        height: 100%
     }
     .image_activite_petite {
         border-radius: 1rem 1rem 0 0;
