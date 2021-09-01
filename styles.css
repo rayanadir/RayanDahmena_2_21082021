@@ -63,13 +63,11 @@ footer {
     .nav_header_categorie {
         padding: 2rem;
         text-decoration: none;
-        font-family: 'Raleway', sans-serif;
     }
     .nav_header_inscription {
         padding: 2rem;
         text-decoration: none;
         color: #0065FC;
-        font-family: 'Raleway', sans-serif;
     }
     .inscription {
         padding: 2rem;
@@ -80,10 +78,6 @@ footer {
     }
     .recherche h1 {
         margin-bottom: 10px;
-        font-family: 'Raleway', sans-serif;
-    }
-    .recherche p {
-        font-family: 'Raleway', sans-serif;
     }
     a {
         text-decoration: none;
@@ -110,10 +104,6 @@ footer {
         padding: 0 1rem;
         font-size: 1rem;
         font-weight: bold;
-        font-family: "Raleway", sans-serif;
-    }
-    .filtre_texte {
-        font-family: 'Raleway', sans-serif;
     }
     .wrap_icone_filtre {
         background-color: #DEEBFF;
@@ -127,7 +117,6 @@ footer {
         justify-content: center;
     }
     .filtre_titre {
-        font-family: 'Raleway', sans-serif;
         padding: 0 1rem;
     }
     .filtre {
@@ -195,9 +184,6 @@ footer {
         grid-template-columns: 6fr 3fr;
         margin-top: 2rem;
     }
-    .hebergement_titre {
-        font-family: "Raleway", sans-serif;
-    }
     .article_hebergement {
         background-color: white;
         border-radius: 1rem;
@@ -219,7 +205,6 @@ footer {
         row-gap: 2rem;
     }
     .titre_article {
-        font-family: "Raleway", sans-serif;
         margin: 5px 0 0 10px;
     }
     .fas[data-active="true"] {
@@ -230,7 +215,6 @@ footer {
     }
     .more {
         margin: 2rem 0 0 0;
-        font-family: "Raleway", sans-serif;
         font-weight: 600;
     }
     .nav_header_categorie[data-active="true"] {
@@ -267,7 +251,6 @@ footer {
         margin: auto 0 0 10px;
     }
     .header_activite {
-        font-family: "Raleway", sans-serif;
         font-weight: 600;
     }
     .activites {
@@ -284,7 +267,6 @@ footer {
         height: 100%
     }
     .titre_activite {
-        font-family: "Raleway", sans-serif;
         font-weight: 600;
         margin-left: 1rem;
     }
@@ -332,12 +314,12 @@ footer {
     }
     .image_activite_petite {
         border-radius: 1rem 1rem 0 0;
-        height: 100%;
+        height: 190px;
         max-width: 100%
     }
     .image_activite_moyenne {
         border-radius: 1rem 1rem 0 0;
-        height: 240px;
+        height: 270px;
         object-fit: cover;
         max-width: 100%;
     }
@@ -354,7 +336,6 @@ footer {
         display: flex;
     }
     .titre_footer {
-        font-family: "Raleway", sans-serif;
         font-weight: 600;
     }
     .list_footer {
@@ -364,7 +345,6 @@ footer {
         line-height: 2;
     }
     .list_titre {
-        font-family: "Raleway", sans-serif;
         font-size: 18px;
     }
     .section_footer {
@@ -392,7 +372,6 @@ footer {
         cursor: pointer;
     }
     .rechercher {
-        font-family: "Raleway", sans-serif;
         font-size: 1rem;
         font-weight: bold;
     }
@@ -401,9 +380,6 @@ footer {
     }
     .bouton_rechercher i {
         display: none;
-    }
-    .recherche span {
-        font-family: 'Raleway', sans-serif;
     }
     .survol:hover {
         transform: scale(1.05);
@@ -430,7 +406,6 @@ footer {
         height: 100%
     }
     .titre_activite {
-        font-family: "Raleway", sans-serif;
         font-weight: 600;
         margin-left: 1rem;
     }
@@ -683,7 +658,6 @@ footer {
     }
     .nav_header_categorie {
         text-decoration: none;
-        font-family: 'Raleway', sans-serif;
         flex: 1;
         display: flex;
         align-items: center;
@@ -694,7 +668,6 @@ footer {
         padding: 2rem;
         text-decoration: none;
         color: #0065FC;
-        font-family: 'Raleway', sans-serif;
     }
     .inscription {
         padding: 2rem;
@@ -709,13 +682,11 @@ footer {
     }
     .recherche h1 {
         margin-bottom: 10px;
-        font-family: 'Raleway', sans-serif;
         font-size: 29px;
         margin-top: 10px;
     }
     .recherche p {
         margin-top: 11px;
-        font-family: 'Raleway', sans-serif;
         font-size: 18px;
     }
     .bouton_rechercher_icone {
@@ -770,11 +741,9 @@ footer {
         border-bottom: 1px solid #F2F2F2;
         font-size: 1rem;
         font-weight: bold;
-        font-family: "Raleway", sans-serif;
         flex: 1;
     }
     .filtre_texte {
-        font-family: 'Raleway', sans-serif;
         font-size: x-large;
     }
     .wrap_icone_filtre {
@@ -788,7 +757,6 @@ footer {
         font-size: 1rem;
     }
     .filtre_titre {
-        font-family: 'Raleway', sans-serif;
         padding: 0 0.6rem;
         font-size: 18px;
     }
@@ -848,7 +816,6 @@ footer {
     .hebergement_titre {
         font-size: 25px;
         font-weight: bold;
-        font-family: "Raleway", sans-serif;
         margin-left: 1rem;
     }
     .article_hebergement {
@@ -870,7 +837,6 @@ footer {
         margin: auto;
     }
     .titre_article {
-        font-family: "Raleway", sans-serif;
         margin: 5px 0 0 10px;
         font-size: 17px;
     }
@@ -882,7 +848,6 @@ footer {
     }
     .more {
         margin: 2rem 0 0 1rem;
-        font-family: "Raleway", sans-serif;
         font-weight: 600;
         font-size: 20px;
     }
@@ -912,7 +877,6 @@ footer {
         justify-content: space-between;
         font-size: 25px;
         font-weight: bold;
-        font-family: "Raleway", sans-serif;
     }
     .articles_populaires {
         display: grid;
@@ -930,7 +894,6 @@ footer {
         font-size: 18px;
     }
     .header_activite {
-        font-family: "Raleway", sans-serif;
         font-weight: 600;
         font-size: x-large;
         margin-left: 1rem;
@@ -953,7 +916,6 @@ footer {
         height: 100%
     }
     .titre_activite {
-        font-family: "Raleway", sans-serif;
         font-weight: 600;
         margin-left: 1rem;
     }
@@ -1053,7 +1015,6 @@ footer {
         padding: 5%;
     }
     .titre_footer {
-        font-family: "Raleway", sans-serif;
         font-weight: 600;
     }
     .list_footer {
@@ -1063,7 +1024,6 @@ footer {
         line-height: 2;
     }
     .list_titre {
-        font-family: "Raleway", sans-serif;
         font-size: 18px;
     }
 }
