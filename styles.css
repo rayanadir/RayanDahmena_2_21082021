@@ -328,6 +328,10 @@ article {
     .wrapper {
         padding: 0 1rem 0 1rem;
     }
+    .nav_header_categorie[data-active="true"] {
+        color: #0065FC;
+        border-top: 3px solid #0065FC;
+    }
     .bouton_rechercher {
         background-color: #0065FC;
         padding: 0 1rem;
