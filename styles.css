@@ -462,6 +462,7 @@ article {
     .activite {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
     }
     .filtre {
         display: flex;
@@ -516,7 +517,7 @@ article {
         margin-top: 1rem;
     }
     .activite article {
-        width: 90%;
+        width: 100%;
     }
     .populaires {
         border-radius: 0;
