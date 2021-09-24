@@ -321,6 +321,9 @@ article {
         color: #0065FC;
         border-top: 3px solid #0065FC;
     }
+    .nav_header_categorie:hover {
+        border-top: 3px solid #0065FC;
+    }
     .bouton_rechercher {
         background-color: #0065FC;
         padding: 0 1rem;
@@ -443,6 +446,9 @@ article {
     }
     .nav_header_categorie[data-active="true"] {
         color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+    }
+    .nav_header_categorie:hover {
         border-bottom: 3px solid #0065FC;
     }
     .inscription {
@@ -601,6 +607,9 @@ article {
         align-items: center;
         justify-content: center;
         height: inherit;
+    }
+    .nav_header_categorie:hover {
+        border-bottom: 3px solid #0065FC;
     }
     .nav_header_inscription {
         padding: 2rem;
